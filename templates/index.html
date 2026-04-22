@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sentiment Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AI Sentiment Analyzer</h1>
+
+        <textarea id="text" placeholder="Enter your text..."></textarea>
+        <button onclick="analyze()">Analyze</button>
+
+        <h2 id="result"></h2>
+
+        <canvas id="chart"></canvas>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>

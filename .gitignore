@@ -1,0 +1,29 @@
+# Environment variables (IMPORTANT)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Database (optional)
+*.db
+
+# Model files (अगर बड़े हों)
+*.pt
+*.bin
